@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter a number</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:space-evenly;
+            height:15vh;
+            margin:10px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Convert to and from roman to int</h1>
+        <form action="/romanToInt" method="get">
+            <input type="text" name="romanInput" placeholder="Enter roman number"/>
+            <button type="submit">Convert</button>
+        </form>
+        <form action="/intToRoman" method="get">
+            <input type="number" name="intToRoman" placeholder="Enter number input" min="1" max="3999"/>
+            <button type="submit">Convert</button>
+        </form>
+    </div>
+</body>
+<style>
+
+</style>
+</html>
